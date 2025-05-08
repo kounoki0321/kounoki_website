@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Brittany&display=swap");
+
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header img {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul a:hover {
+  color: #007bff;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section#item h3 {
+  font-family: "Brittany", sans-serif;
+}
+
+section#item img {
+  margin: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+section#item img:hover {
+  transform: scale(1.05);
+}
+
+section#story,
+section#contact {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
